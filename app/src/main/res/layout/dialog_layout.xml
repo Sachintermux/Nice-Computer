@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+    <EditText
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/dio_name"
+        android:layout_margin="5dp"
+        android:hint="Name"
+
+        />
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dio_course"
+            android:textSize="15sp"
+            android:text="ADCA"
+            android:layout_margin="5dp"
+            android:hint="Course"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="Bazidpur Godo"
+            android:id="@+id/dio_address"
+            android:layout_margin="5dp"
+            android:hint="Address"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dio_month"
+            android:textSize="15sp"
+            android:text="Jan , feb"
+            android:hint="Month"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="6201120205"
+            android:id="@+id/dio_number"
+            android:hint="Number"
+            android:layout_margin="5dp"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dio_fees"
+            android:textSize="15sp"
+            android:text="500"
+            android:hint="Fees"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_weight="1.1"
+            android:layout_width="0dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:id="@+id/dio_cancel"
+            android:layout_margin="10dp"
+            android:singleLine="true"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dio_send"
+            android:textSize="15sp"
+            android:text="SEND"/>
+
+    </LinearLayout>
+
+</LinearLayout>
